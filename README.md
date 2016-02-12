@@ -1,2 +1,3 @@
-# MachineLearning
-Files for the UTSC machine learning seminar
+# UTSC Machine Learning Series
+
+Welcome to the repository with all the files from our workshop series.
