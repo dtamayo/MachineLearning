@@ -16,39 +16,39 @@ Conda environments let you create an isolated python installation on your machin
 
 Open a terminal window (google how to do that if you do not know how), and type
 
-conda create -n ml python=2
+    conda create -n ml python=2
 
 This will create a conda environment with name (-n) ml (machine learning--can name whatever you want) that uses the latest version of python 2.  In the same way, you could create a separate conda environment that runs python3 if you ever want to try it.
 
 If you now type
 
-python
+    python
 
 It will launch the default anaconda python.  To use a conda environment, you always have to activate it first (each time you open a terminal window) with
 
-source activate ml
+    source activate ml
 
 or whatever the name of your environment is.  You should now see a (ml) in front of the command prompt.  Now if you type `python`, it will launch the python from your conda environment.
 
 Now we have to install the packages we will use for the workshop:
 
-conda install pandas seaborn scikit-learn jupyter
+    conda install pandas seaborn scikit-learn jupyter
 
 This will install the packages pandas, seaborn, scikit-learn, and jupyter, along with all their dependencies.  We will talk in the workshop about what each of them do.  If you ever find you need a different python package, you can do
 
-conda install packagename
+    conda install packagename
 
 # Running Jupyter Notebooks
 
 We will be running everything in the workshop from Jupyter notebooks (this is the new and more general version of ipython notebooks, which you might hear us say--they mean the same thing).  To open a new jupyter notebook, type
 
-jupyter notebook
+    jupyter notebook
 
 This will launch jupyter in your web browswer.  On the right, click the new button, and select Python 2.  In the cell, type
 
-import pandas
-import seaborn
-import sklearn
+    import pandas
+    import seaborn
+    import sklearn
 
 Then press shift+enter to execute the cell.  If you do not get an error, then all the installation has worked.  
 
