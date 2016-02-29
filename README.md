@@ -1,3 +1,5 @@
+![alt text](https://github.com/dtamayo/MachineLearning/blob/master/images/machinelearning.jpg "Logo")
+
 # UTSC Machine Learning Series
 
 Welcome to the github repository for our UTSC Machine Learning Workshop.
