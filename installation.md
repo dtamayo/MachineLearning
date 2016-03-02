@@ -2,19 +2,35 @@
 
 Throughout the workshop, we will be using Python and some of its supporting packages.  This is a quick guide to get everything installed ahead of time so we can hit the ground running.
 
+# C compiler and Git
+
+Some Python libraries require a C compiler and we will be using Git to share files and collaborate on projects.  Try typing `gcc` and `git` in a terminal.  If you get 'command not found' for either of them, you need to install them.  If you are on Mac, you can get both by following the instructions here:
+
+http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/
+
+If you are on linux, you probably want to install them with either
+
+    sudo yum install gcc git-all
+
+or
+
+    sudo apt-get install gcc git-all
+
+or just google installing git and gcc on your flavor of linux.
+
 # Anaconda
 
-Anaconda is an easy-to-install python distribution that has all the things you will need in one place.  To install, visit 
+Anaconda is an easy-to-install python distribution that has all the things you will need in one place.  If you are confident with Python, make sure you have the packages listed below installed.  If you are unsure, we recommend installing Anaconda to avoid any conflicts/glitches.  To install, visit 
 
 https://www.continuum.io/downloads 
 
-and follow the instructions for your particular operating system.  You will have the option between python 2.7 and 3.5.  Choose python 2.7.  While it is older, there are fewer compatibility issues among different packages, and you always have the option of still using python 3 (see below).  
+and follow the instructions for your particular operating system.  You will have the option between python 2.7 and 3.5.  Choose python 2.7 (you always have the option of still using python 3, see below).  
 
 # Make a conda environment
 
 Conda environments let you create an isolated python installation on your machine, which helps keep your installation clean and less likely to run into version clashes between packages.
 
-Open a terminal window (google how to do that if you do not know how), and type
+Open a terminal window and type
 
     conda create -n ml python=2
 

@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 *.pyc
 TBD.txt
+*.slides.html
+.gitignore
