@@ -1,10 +1,14 @@
-# Setup before first workshop
-
 Throughout the workshop, we will be using Python and some of its supporting packages.  This is a quick guide to get everything installed ahead of time so we can hit the ground running.
+
+Unfortunately, none of us have experience with Windows, and all the science projects are likely to require either Mac OS X or linux (indeed most science!).  So if you run Windows on your laptop, you will first have to first install Linux (one option is to boot from a USB stick).  This looks like a good start:
+
+http://www.pcworld.com/article/2955460/operating-systems/dual-booting-linux-with-windows-what-you-need-to-know.html
+
+# Setup before first workshop
 
 # C compiler and Git
 
-Some Python libraries require a C compiler and we will be using Git to share files and collaborate on projects.  Try typing `gcc` and `git` in a terminal.  If you get 'command not found' for either of them, you need to install them.  If you are on Mac, you can get both by following the instructions here:
+Some Python libraries require a C compiler and we will be using Git to share files and collaborate on projects.  Try typing `gcc` and `git` in a terminal (all commands below should be typed in a terminal window).  If you get 'command not found' for either of them, you need to install them.  If you are on Mac, you can get both by following the instructions here:
 
 http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/
 
@@ -17,6 +21,10 @@ or
     sudo apt-get install gcc git-all
 
 or just google installing git and gcc on your flavor of linux.
+
+Once you have installed git, navigate to the directory where you want to put the workshop folder with all the materials, and do
+
+git clone https://github.com/dtamayo/MachineLearning.git
 
 # Anaconda
 
@@ -48,7 +56,7 @@ or whatever the name of your environment is.  You should now see a (ml) in front
 
 Now we have to install the packages we will use for the workshop:
 
-    conda install pandas seaborn scikit-learn jupyter
+    conda install pandas seaborn scikit-learn jupyter pydataset
 
 This will install the packages pandas, seaborn, scikit-learn, and jupyter, along with all their dependencies.  We will talk in the workshop about what each of them do.  If you ever find you need a different python package, you can do
 
