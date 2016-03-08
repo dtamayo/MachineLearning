@@ -57,7 +57,11 @@ This will install the packages pandas, seaborn, scikit-learn, and jupyter, along
 
 # Running Jupyter Notebooks
 
-We will be running everything in the workshop from Jupyter notebooks (this is the new and more general version of ipython notebooks, which you might hear us say--they mean the same thing).  To open a new jupyter notebook, type
+We will be running everything in the workshop from Jupyter notebooks (this is the new and more general version of ipython notebooks, which you might hear us say--they mean the same thing).  To open a new jupyter notebook, first activate the environment
+
+    source activate ml
+    
+then
 
     jupyter notebook
 
