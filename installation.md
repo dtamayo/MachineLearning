@@ -48,7 +48,8 @@ or whatever the name of your environment is.  You should now see a (ml) in front
 
 Now we have to install the packages we will use for the workshop:
 
-    conda install pandas seaborn scikit-learn jupyter pydataset
+    conda install pandas seaborn scikit-learn jupyter
+    pip install pydataset
 
 This will install the packages pandas, seaborn, scikit-learn, and jupyter, along with all their dependencies.  We will talk in the workshop about what each of them do.  If you ever find you need a different python package, you can do
 
