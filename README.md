@@ -1,3 +1,5 @@
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/dtamayo/MachineLearning)
+
 ![alt text](https://github.com/dtamayo/MachineLearning/blob/master/images/machinelearning.jpg "Logo")
 
 # UTSC Machine Learning Series
