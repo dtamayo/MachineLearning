@@ -3,3 +3,5 @@
 TBD.txt
 *.slides.html
 .gitignore
+Day2/data/titanic_submit_fancytitle.csv
+Day2/data/titanic_submit_gender_age.csv
